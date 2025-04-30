@@ -1,67 +1,24 @@
-.name{
-    font-size: 4rem;
-    color: var(--primary-text-color);
-    font-weight: 800;
-    text-align: left;
-}
-
-.role{
-    font-size: 1.5rem;
-    color: var(--secondary-text-color);
-    margin-top: -40px;
-    text-align: left;
-}
-
-.bio{
-    font-size: 1.1rem;
-    color: var(--third-text-color);
-    margin-top: -10px;
-    font-weight: 500;
-    text-align: left;
-}
-
 .footer{
     width: 100%;
     height: auto;
     background-color: var(--secondary-color);
     border-top: 1px solid var(--primary-border-color);
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    flex-direction: column;
     padding-top: 80px;
     padding-bottom: 80px;
-    gap: 150px;
+    gap: 0px;
 }
 
-.footerRight{
-    padding-right: 150px;
-    display: flex;
-    flex-direction: row;
-    gap: 150px;
-    justify-content: flex-end;
-}
-
-
-.footerLeft{
-    padding-left: 150px;
-}
-
-.link{
+.bio{
     color: var(--third-text-color);
-    text-decoration: none;
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: 400;
+    text-align: center;
 }
 
-@media screen and (max-width: 1000px) {
-    .footer{
-        flex-direction: column;
-        justify-content: center;
-    }
-
-    .footerLeft, .footeRight{
-        padding-right: 150px;
-        padding-left: 150px;
-        justify-content: center;
-    }
+.signature{
+    color: white;
 }

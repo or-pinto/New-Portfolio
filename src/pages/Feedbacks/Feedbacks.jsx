@@ -3,6 +3,7 @@ import styles from './Feedbacks.module.css'
 import Page from '../../components/Page/Page.jsx';
 import Footer from '../../components/Footer/Footer.jsx';
 import LinkedList from '../../components/LinkedList/LinkedList.jsx';
+import Circle from '../../components/Circle/Circle.jsx';
 import { Link } from 'react-router-dom';
 
 export default function Posts({  }) {
@@ -10,8 +11,11 @@ export default function Posts({  }) {
         <>
           <Page children={
             <>
+
                 <section>
-                    <h1 className={styles.name} style={{textAlign: "center", marginTop: "", fontSize: "3.4rem"}}>Feedbacks<span style={{color: "rgb(200, 50, 0)"}}>:</span></h1>
+                    <h1 className={styles.name} style={{textAlign: "center", marginTop: "", fontSize: "3.4rem"}}>
+                        Feedbacks<span style={{color: "rgb(200, 50, 0)"}}>:</span>
+                    </h1>
                 </section>
 
                 <section className={styles.projectsContainer}>

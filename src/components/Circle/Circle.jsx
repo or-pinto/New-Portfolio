@@ -1,5 +1,7 @@
 import { useState } from 'react'
 
+import styles from "./Circle.module.css"
+
 export default function Circle({x, y, color, radius}){
     // Localized style for circle
     const style = {
@@ -11,10 +13,11 @@ export default function Circle({x, y, color, radius}){
         width: radius + "px",
         height: radius + "px",
         background: `radial-gradient(circle at center, ${color}, transparent 50%)`,
-        pointerEvents: "none"
+        pointerEvents: "none",
+        animation: `${styles.fade} 2s ease-in-out infinite`,
     }
 
     return (
-        <div style={style} className={'special_effect'}></div>
+        <div style={style} className={`special_effect ${5}`}></div>
     );
 }

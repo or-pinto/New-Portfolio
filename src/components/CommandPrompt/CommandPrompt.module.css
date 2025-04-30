@@ -14,7 +14,7 @@
 }
 
 .container::before{
-    content: "Command Prompt";
+    content: "Terminal";
     font-family: "Source Code Pro";
     position: absolute;
     color: white;
@@ -26,7 +26,7 @@
 }
 
 .directory{
-    color: hsl(2, 50%, 52%);
+    color: green;
     font-family: "Source Code Pro";
 }
 

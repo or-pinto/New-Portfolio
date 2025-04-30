@@ -14,19 +14,6 @@
     z-index: 2;
 }
 
-@media screen and (max-width: 1000px) {
-    .name{
-        display: none;
-    }
-}
-
-.name{
-    color: var(--primary-text-color);
-    font-weight: 700;
-    font-size: 1.4rem;
-    margin-right: 10px;
-}
-
 .low_button{
     background-color: transparent;
     color: var(--secondary-text-color);
@@ -34,7 +21,7 @@
     font-weight: 400;
     border: none;
     padding: 10px 15px 10px 15px;
-    border-radius: 8px;
+    height: 70px;
     transition-duration: 0.2s;
     width: auto;
 }
@@ -51,9 +38,9 @@
     font-weight: 500;
     border: none;
     padding: 10px 15px 10px 15px;
-    border-radius: 8px;
     transition-duration: 0.2s;
     width: auto;
+    height: 70px;
     transition-duration: 0.2s;
 }
 
