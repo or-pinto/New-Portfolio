@@ -14,7 +14,7 @@ export default function Projects({  }) {
                 <Sparkle radius="30" style={{translate: "10px -20px"}} color="red"/>
                 <Sparkle radius="20" style={{translate: "50px -90px"}} color="blue"/>
                 <section>
-                    <h1 className={styles.name} style={{textAlign: "center", marginTop: "", fontSize: "3.4rem"}}>My Projects<span style={{color: "rgb(200, 50, 0)"}}>:</span></h1>
+                    <h1 className={styles.name} style={{textAlign: "center", marginTop: "", fontSize: "3.4rem"}}>My Projects<span style={{color: "hsl(212, 52%, 37%)"}}>:</span></h1>
                 </section>
 
                 <section className={styles.projectsContainer}>

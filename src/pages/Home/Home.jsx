@@ -41,11 +41,27 @@ export default function Home(){
           <Sparkle radius="30" style={{translate: "10px -20px"}} color="yellow"/>
           <Sparkle radius="20" style={{translate: "50px -90px"}} color="red"/>
           <section>
-              <h1 className={styles.name} style={{textAlign: "center", marginTop: "",  fontSize: "3.4rem"}}>Who am I<span style={{color: "rgb(255, 0, 50)"}}>:</span></h1>
-              <h3 className={styles.bio} style={{textAlign: "center", paddingLeft: "200px", paddingRight: "200px", fontWeight: "400"}}>
+              <h1 className={styles.name} style={
+                {
+                  textAlign: "center", 
+                  marginTop: "",  
+                  fontSize: "3.4rem",
+                  paddingLeft: "30px",
+                paddingRight: "30px"
+                }
+              }>Who am I<span style={{color: "hsl(212, 52%, 37%)"}}>:</span></h1>
+              <h3 className={styles.bio} style={{textAlign: "center", paddingLeft: "50px", paddingRight: "50px", fontWeight: "400"}}>
               I'm a 17-year-old programmer with experience gained through self-learning, university courses, and high school education. With a strong background in Full Stack Development, I am now focused on mastering the fundamentals of AI to create impactful solutions.
               </h3>
-              <h1 className={styles.name} style={{textAlign: "center", marginTop: "", fontSize: "3.4rem"}}>My Projects<span style={{color: "rgb(255, 0, 50)"}}>:</span></h1>
+              <h1 className={styles.name} style={
+                {
+                  textAlign: "center", 
+                  marginTop: "", 
+                  fontSize: "3.4rem",
+                  paddingLeft: "30px",
+                  paddingRight: "30px"
+                }
+              }>My Projects<span style={{color: "hsl(212, 52%, 37%)"}}>:</span></h1>
           </section>
 
           <section className={styles.projectsContainer}>
@@ -73,7 +89,13 @@ export default function Home(){
           <Sparkle radius="30" style={{translate: "-150px 95px"}} color="blue"/>
           <Sparkle radius="15" style={{translate: "150px 120px"}} color="yellow"/>
           <Sparkle radius="20" style={{translate: "0px 90px"}} color="red"/>
-          <h1 className={styles.name} style={{textAlign: "center", marginTop: "200px", fontSize: "3.4rem"}}>My Technologies<span style={{color: "rgb(255, 0, 50)"}}>:</span></h1>
+          <h1 className={styles.name} style={{
+            textAlign: "center", 
+            marginTop: "200px", 
+            fontSize: "3.4rem",
+            paddingLeft: "30px",
+            paddingRight: "30px"
+          }}>My Technologies<span style={{color: "hsl(212, 52%, 37%)"}}>:</span></h1>
           <section className={styles.usesContainer}>
             <Proficiency name="C"/>
             <Proficiency name="Linux"/>

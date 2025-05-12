@@ -1,6 +1,6 @@
 .container{
     width: 550px;
-    max-width: 90vw;
+    max-width: 80vw;
     height: 350px;
     padding-top: 20px;
     margin-left: calc(50%);
@@ -26,7 +26,7 @@
 }
 
 .directory{
-    color: green;
+    color: hsl(212, 52%, 37%);
     font-family: "Source Code Pro";
 }
 

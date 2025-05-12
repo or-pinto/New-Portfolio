@@ -17,8 +17,11 @@
     font-size: 1.2rem;
     font-weight: 400;
     text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 .signature{
     color: white;
+    font-weight: 500;
 }

@@ -4,6 +4,7 @@
     position: absolute;
     animation: 3s fade infinite;
     margin-left: 50%;
+    transform-style: preserve-3d;
 }
 
 @keyframes fade{
@@ -13,7 +14,7 @@
     }
 
     50%{
-        transform: scale(0.8) rotate(15deg);
+        transform: scale(0.8) rotateY(720deg);
         opacity: 0.3;
     }
 

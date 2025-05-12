@@ -1,16 +1,14 @@
 .container{
     width: 100vw;
-    height: 70px;
+    height: 80px;
     position: fixed;
     left: 0;
     top: 0;
-    backdrop-filter: blur(25px);
+    backdrop-filter: blur(45px);
     border-bottom: 1px solid var(--secondary-border-color);
-
     display: flex;
     justify-content: space-between;
     align-items: center;
-
     z-index: 2;
 }
 
@@ -21,9 +19,10 @@
     font-weight: 400;
     border: none;
     padding: 10px 15px 10px 15px;
-    height: 70px;
+    height: 50px;
     transition-duration: 0.2s;
     width: auto;
+    border-radius: 8px;
 }
 
 .low_button:hover{
@@ -32,7 +31,7 @@
 }
 
 .high_button{
-    background-color: hsl(2, 50%, 52%);
+    background-color: hsl(212, 52%, 43%);
     color: rgb(255, 255, 255);
     font-size: 1rem;
     font-weight: 500;
@@ -40,12 +39,13 @@
     padding: 10px 15px 10px 15px;
     transition-duration: 0.2s;
     width: auto;
-    height: 70px;
+    height: 50px;
     transition-duration: 0.2s;
+    border-radius: 8px;
 }
 
 .high_button:hover{
-    background-color: hsl(2, 50%, 42%);
+    background-color: hsl(212, 52%, 37%);
 }
 
 .high_button::after{
@@ -90,7 +90,7 @@
 }
 
 .settings_button{
-    padding: 20px;
+    padding: 22px;
     border-radius: 8px;
     outline: none;
     border: none;
