@@ -29,7 +29,7 @@
 }
 
 .projectsContainer{
-    width: 400px;
+    width: 100%;
     height: auto;
     margin: 0 auto;
     display: flex;
@@ -41,7 +41,7 @@
 }
 
 .projectsContainerBottom{
-    width: 802px;
+    width: 100%;
     height: 250px;
     position: absolute;
     margin-top: calc(100% - 125px);

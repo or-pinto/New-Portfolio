@@ -1,5 +1,5 @@
 .container{
-    width: 800px;
+    width: 100%; /* Changed from 100vw to 100% to prevent horizontal overflow */
     max-width: 90vw;
     background-color: var(--secondary-color);
     border: 1px solid var(--secondary-border-color);
