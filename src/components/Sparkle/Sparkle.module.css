@@ -14,7 +14,7 @@
     }
 
     50%{
-        transform: scale(0.8) rotateY(720deg);
+        transform: scale(0.8);
         opacity: 0.3;
     }
 

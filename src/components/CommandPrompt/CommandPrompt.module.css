@@ -10,7 +10,6 @@
     transform-style: preserve-3d;
     transform-origin: center;
     box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.8);
-    transition-duration: 0.2s;
 }
 
 .container::before{

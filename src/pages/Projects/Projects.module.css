@@ -29,7 +29,8 @@
 }
 
 .projectsContainer{
-    width: 100%;
+    width: 700px;
+    max-width: 100%;
     height: auto;
     margin: 0 auto;
     display: flex;
