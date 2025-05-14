@@ -94,3 +94,24 @@ button:hover{
   transform: translateX(20px) rotateX(180deg);
   opacity: 0;
 }
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animated_appearance {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.animated_appearance.visible {
+  animation: fadeIn 0.5s forwards;
+}

@@ -24,9 +24,9 @@ export default function Home(){
           <div className={styles.left}>
               <Circle x="100" y="200" color="rgba(194, 75, 71, 0.2)" radius="550"/>
               <Circle x="250" y="100" color="rgba(255, 124, 194, 0.1)" radius="600"/>
-              <h1 className={styles.name}>Or Pinto</h1>
-              <h2 className={styles.role}>Full Stack Developer</h2>
-              <h3 className={styles.bio}>Together we can make this world a better place.</h3>
+              <h1 className={`${styles.name} animated_appearance`}>Or Pinto</h1>
+              <h2 className={`${styles.role} animated_appearance`}>Full Stack Developer</h2>
+              <h3 className={`${styles.bio} animated_appearance`}>Together we can make this world a better place.</h3>
           </div>
 
           <div className={styles.right}>
@@ -41,7 +41,7 @@ export default function Home(){
           <Sparkle radius="30" style={{translate: "10px -20px"}} color="yellow"/>
           <Sparkle radius="20" style={{translate: "50px -90px"}} color="red"/>
           <section>
-              <h1 className={styles.name} style={
+              <h1 className={`${styles.name} animated_appearance`} style={
                 {
                   textAlign: "center", 
                   marginTop: "",  
@@ -50,10 +50,10 @@ export default function Home(){
                 paddingRight: "30px"
                 }
               }>Who am I<span style={{color: "hsl(212, 52%, 37%)"}}>:</span></h1>
-              <h3 className={styles.bio} style={{textAlign: "center", paddingLeft: "50px", paddingRight: "50px", fontWeight: "400"}}>
+              <h3 className={`${styles.bio} animated_appearance`} style={{textAlign: "center", paddingLeft: "50px", paddingRight: "50px", fontWeight: "400"}}>
               I'm a 17-year-old programmer with experience gained through self-learning, university courses, and high school education. With a strong background in Full Stack Development, I am now focused on mastering the fundamentals of AI to create impactful solutions.
               </h3>
-              <h1 className={styles.name} style={
+              <h1 className={`${styles.name} animated_appearance`} style={
                 {
                   textAlign: "center", 
                   marginTop: "", 
@@ -89,7 +89,7 @@ export default function Home(){
           <Sparkle radius="30" style={{translate: "-150px 95px"}} color="blue"/>
           <Sparkle radius="15" style={{translate: "150px 120px"}} color="yellow"/>
           <Sparkle radius="20" style={{translate: "0px 90px"}} color="red"/>
-          <h1 className={styles.name} style={{
+          <h1 className={`${styles.name} animated_appearance`} style={{
             textAlign: "center", 
             marginTop: "200px", 
             fontSize: "3.4rem",

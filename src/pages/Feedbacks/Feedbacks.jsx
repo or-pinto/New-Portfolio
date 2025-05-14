@@ -17,7 +17,7 @@ export default function Posts({  }) {
                 <Sparkle radius="25" style={{translate: "-90px -90px"}} color="red"/>
                 <Sparkle radius="30" style={{translate: "-30px -60px"}} color="yellow"/>
                 <Sparkle radius="20" style={{translate: "50px -90px"}} color="blue"/>
-                    <h1 className={styles.name} style={{textAlign: "center", marginTop: "", fontSize: "3.4rem"}}>
+                    <h1 className={`${styles.name} animated_appearance`} style={{textAlign: "center", marginTop: "", fontSize: "3.4rem"}}>
                         Feedbacks<span style={{color: "hsl(212, 52%, 37%)"}}>:</span>
                     </h1>
                 </section>

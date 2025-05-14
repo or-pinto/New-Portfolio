@@ -5,7 +5,7 @@ import logos from '../../Logos.module.jsx'
 export default function Project({ name, period, usage, content, link}) {
     usage = usage || [] // If the usage is not defined then make it an empty array
     return (
-        <div className={styles.container} onClick={() =>  { if (link !== 'none'){ window.open(link, '_blank') }}}>
+        <div className={`${styles.container} animated_appearance`} onClick={() =>  { if (link !== 'none'){ window.open(link, '_blank') }}}>
             <h1 className={styles.name}>{name}</h1>
             <h2 className={styles.period}>{period}</h2>
             <h3 className={styles.content}>{content}</h3>

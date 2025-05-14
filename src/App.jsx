@@ -9,6 +9,8 @@ import Home from './pages/Home/Home.jsx';
 import Projects from './pages/Projects/Projects.jsx';
 import Feedbacks from './pages/Feedbacks/Feedbacks.jsx';
 
+import useAnimatedAppearance from './hooks/useAnimatedAppearance.js';
+
 import './App.css';
 
 function App() {
@@ -33,7 +35,10 @@ function App() {
       // Cleanup function
       document.removeEventListener('copy', handleCopy);
     };
-  }, [])
+  }, []);
+
+  // Apply animated appearance logic
+  useAnimatedAppearance();
 
   return (
     <>           
